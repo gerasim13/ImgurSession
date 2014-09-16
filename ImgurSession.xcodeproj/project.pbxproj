@@ -22,7 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		022E51D618CE4F15810C28EE /* libPods-OSXAuthenticatedTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2155B9E8F1254B7783782111 /* libPods-OSXAuthenticatedTests.a */; };
-		1A559323052940B29978A00B /* libPods-ImgurSession.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FF1E5F82DB4DDF82FE86D9 /* libPods-ImgurSession.a */; };
 		1E1C67B716E5400B8EF06B87 /* libPods-ImgurSessionOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE72095F6B24FBB9104E2EE /* libPods-ImgurSessionOSX.a */; };
 		2407474F18D4F31600B92063 /* IMGVote.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407474E18D4F31600B92063 /* IMGVote.m */; };
 		2407475018D4F31600B92063 /* IMGVote.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407474E18D4F31600B92063 /* IMGVote.m */; };
@@ -105,25 +104,6 @@
 		C3102D3018DB835A007A75C4 /* IMGNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3102D2E18DB835A007A75C4 /* IMGNotificationTests.m */; };
 		C319F7D418D0DB3F00C5E880 /* IMGComment.m in Sources */ = {isa = PBXBuildFile; fileRef = C319F7D318D0DB3F00C5E880 /* IMGComment.m */; };
 		C319F7D518D0DB3F00C5E880 /* IMGComment.m in Sources */ = {isa = PBXBuildFile; fileRef = C319F7D318D0DB3F00C5E880 /* IMGComment.m */; };
-		C32880FC18EA0AF200B080CF /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880E918EA0AF100B080CF /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C32880FD18EA0AF200B080CF /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880EA18EA0AF100B080CF /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C32880FE18EA0AF200B080CF /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880EB18EA0AF100B080CF /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C32880FF18EA0AF200B080CF /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880EC18EA0AF100B080CF /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810018EA0AF200B080CF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880ED18EA0AF100B080CF /* AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810118EA0AF200B080CF /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880EE18EA0AF100B080CF /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810218EA0AF200B080CF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880EF18EA0AF100B080CF /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810318EA0AF200B080CF /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880F018EA0AF100B080CF /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810418EA0AF200B080CF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880F118EA0AF100B080CF /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810518EA0AF200B080CF /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880F218EA0AF100B080CF /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810618EA0AF200B080CF /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880F318EA0AF100B080CF /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810718EA0AF200B080CF /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880F418EA0AF100B080CF /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810818EA0AF200B080CF /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880F518EA0AF100B080CF /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810918EA0AF200B080CF /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880F618EA0AF100B080CF /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810A18EA0AF200B080CF /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880F718EA0AF100B080CF /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810B18EA0AF200B080CF /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880F818EA0AF100B080CF /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810C18EA0AF200B080CF /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880F918EA0AF200B080CF /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810D18EA0AF200B080CF /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880FA18EA0AF200B080CF /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C328810E18EA0AF200B080CF /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880FB18EA0AF200B080CF /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C328810F18EA0DFF00B080CF /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880E918EA0AF100B080CF /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C328811018EA0DFF00B080CF /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880EA18EA0AF100B080CF /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C328811118EA0DFF00B080CF /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880EB18EA0AF100B080CF /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -341,8 +321,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		021C4CA233CF41DDB17E9B2C /* Pods-OSXIntegratedAnonTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXIntegratedAnonTests.xcconfig"; path = "Pods/Pods-OSXIntegratedAnonTests.xcconfig"; sourceTree = "<group>"; };
-		092DC70EA0C4429E854604CD /* Pods-ImgurSession.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImgurSession.xcconfig"; path = "Pods/Pods-ImgurSession.xcconfig"; sourceTree = "<group>"; };
 		19486AE3CD394A55907AA7A3 /* libPods-OSXAnonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXAnonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2155B9E8F1254B7783782111 /* libPods-OSXAuthenticatedTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXAuthenticatedTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2407474D18D4F31600B92063 /* IMGVote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMGVote.h; sourceTree = "<group>"; };
@@ -400,16 +378,10 @@
 		24C5D0F618E6441200BB9EEB /* badhotgalleryrequest-noauthenticiation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "badhotgalleryrequest-noauthenticiation.json"; path = "anonymous/badhotgalleryrequest-noauthenticiation.json"; sourceTree = "<group>"; };
 		24C5D0F918E6473300BB9EEB /* IMGAuthenticationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMGAuthenticationTests.m; sourceTree = "<group>"; };
 		24C5D0FC18E64A4100BB9EEB /* IMGAuthenticationtests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IMGAuthenticationtests.m; path = "Integrated Tests/IMGAuthenticationtests.m"; sourceTree = SOURCE_ROOT; };
-		2C7E9E8BB5BF4985AC44F2BE /* Pods-iOSAuthenticatedTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAuthenticatedTests.xcconfig"; path = "Pods/Pods-iOSAuthenticatedTests.xcconfig"; sourceTree = "<group>"; };
-		2FC257101CC740B89141A31E /* Pods-OSXAnonTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXAnonTests.xcconfig"; path = "Pods/Pods-OSXAnonTests.xcconfig"; sourceTree = "<group>"; };
-		3507314232AD4D6988DAADAF /* Pods-OSXIntegratedAuthenticatedTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXIntegratedAuthenticatedTests.xcconfig"; path = "Pods/Pods-OSXIntegratedAuthenticatedTests.xcconfig"; sourceTree = "<group>"; };
-		4BC71F69ADB2426E981E8411 /* Pods-OSXAuthenticatedTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXAuthenticatedTests.xcconfig"; path = "Pods/Pods-OSXAuthenticatedTests.xcconfig"; sourceTree = "<group>"; };
 		5C17F7D4AE624C3C855B4547 /* libPods-iOSAuthenticatedTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSAuthenticatedTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE72095F6B24FBB9104E2EE /* libPods-ImgurSessionOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImgurSessionOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		612C65B7186541E6BBEDA0BD /* Pods-SampleApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.xcconfig"; path = "Pods/Pods-SampleApp.xcconfig"; sourceTree = "<group>"; };
 		63FF1E5F82DB4DDF82FE86D9 /* libPods-ImgurSession.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImgurSession.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AD5E4AAC7E4142A9272C14 /* libPods-OSXIntegratedAnonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXIntegratedAnonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92BC7968A5764FEAA29E82CC /* Pods-ImgurSessionOSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImgurSessionOSX.xcconfig"; path = "Pods/Pods-ImgurSessionOSX.xcconfig"; sourceTree = "<group>"; };
 		B18FC49F01B74CE7997BECDF /* libPods-OSXIntegratedAuthenticatedTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXIntegratedAuthenticatedTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E1EE857AF64A31A8CAA72E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C309339518CA1F87009D9C57 /* libImgurSession.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libImgurSession.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -429,25 +401,25 @@
 		C3102D2E18DB835A007A75C4 /* IMGNotificationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMGNotificationTests.m; sourceTree = "<group>"; };
 		C319F7D218D0DB3F00C5E880 /* IMGComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IMGComment.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		C319F7D318D0DB3F00C5E880 /* IMGComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IMGComment.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		C32880E918EA0AF100B080CF /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		C32880EA18EA0AF100B080CF /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		C32880EB18EA0AF100B080CF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		C32880EC18EA0AF100B080CF /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		C32880ED18EA0AF100B080CF /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = Pods/AFNetworking/AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		C32880EE18EA0AF100B080CF /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		C32880EF18EA0AF100B080CF /* AFSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		C32880F018EA0AF100B080CF /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		C32880F118EA0AF100B080CF /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		C32880F218EA0AF100B080CF /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		C32880F318EA0AF100B080CF /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = Pods/AFNetworking/AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		C32880F418EA0AF100B080CF /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		C32880F518EA0AF100B080CF /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
-		C32880F618EA0AF100B080CF /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		C32880F718EA0AF100B080CF /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		C32880F818EA0AF100B080CF /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		C32880F918EA0AF200B080CF /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		C32880FA18EA0AF200B080CF /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		C32880FB18EA0AF200B080CF /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		C32880E918EA0AF100B080CF /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = ../AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		C32880EA18EA0AF100B080CF /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = ../AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		C32880EB18EA0AF100B080CF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = ../AFNetworking/AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		C32880EC18EA0AF100B080CF /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "../AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		C32880ED18EA0AF100B080CF /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = ../AFNetworking/AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		C32880EE18EA0AF100B080CF /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = ../AFNetworking/AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C32880EF18EA0AF100B080CF /* AFSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = ../AFNetworking/AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		C32880F018EA0AF100B080CF /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = ../AFNetworking/AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		C32880F118EA0AF100B080CF /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = ../AFNetworking/AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		C32880F218EA0AF100B080CF /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = ../AFNetworking/AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		C32880F318EA0AF100B080CF /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = ../AFNetworking/AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		C32880F418EA0AF100B080CF /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "../AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		C32880F518EA0AF100B080CF /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "../AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		C32880F618EA0AF100B080CF /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "../AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		C32880F718EA0AF100B080CF /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "../AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		C32880F818EA0AF100B080CF /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "../AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		C32880F918EA0AF200B080CF /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "../AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		C32880FA18EA0AF200B080CF /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "../AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		C32880FB18EA0AF200B080CF /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "../AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		C35448011906D835001C88E8 /* NSError+IMGError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+IMGError.h"; sourceTree = "<group>"; };
 		C35448021906D835001C88E8 /* NSError+IMGError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+IMGError.m"; sourceTree = "<group>"; };
 		C35A124218FDAD1C007D2260 /* example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = example.gif; sourceTree = "<group>"; };
@@ -580,7 +552,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C309339918CA1F87009D9C57 /* Foundation.framework in Frameworks */,
-				1A559323052940B29978A00B /* libPods-ImgurSession.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,14 +696,6 @@
 				C3C6B74D19227BEE007C32C8 /* SampleApp */,
 				C309339718CA1F87009D9C57 /* Frameworks */,
 				C309339618CA1F87009D9C57 /* Products */,
-				092DC70EA0C4429E854604CD /* Pods-ImgurSession.xcconfig */,
-				92BC7968A5764FEAA29E82CC /* Pods-ImgurSessionOSX.xcconfig */,
-				2FC257101CC740B89141A31E /* Pods-OSXAnonTests.xcconfig */,
-				4BC71F69ADB2426E981E8411 /* Pods-OSXAuthenticatedTests.xcconfig */,
-				2C7E9E8BB5BF4985AC44F2BE /* Pods-iOSAuthenticatedTests.xcconfig */,
-				021C4CA233CF41DDB17E9B2C /* Pods-OSXIntegratedAnonTests.xcconfig */,
-				3507314232AD4D6988DAADAF /* Pods-OSXIntegratedAuthenticatedTests.xcconfig */,
-				612C65B7186541E6BBEDA0BD /* Pods-SampleApp.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1137,26 +1100,7 @@
 				C3C6B7F819240C3A007C32C8 /* IMGMemeGen.h in Headers */,
 				2457E2D818F77DDA00F022A1 /* NSDictionary+IMG.h in Headers */,
 				C35448031906D835001C88E8 /* NSError+IMGError.h in Headers */,
-				C32880FC18EA0AF200B080CF /* AFHTTPRequestOperation.h in Headers */,
-				C32880FD18EA0AF200B080CF /* AFHTTPRequestOperationManager.h in Headers */,
-				C32880FE18EA0AF200B080CF /* AFHTTPSessionManager.h in Headers */,
-				C32880FF18EA0AF200B080CF /* AFNetworkActivityIndicatorManager.h in Headers */,
 				C3C6B7F219240BD7007C32C8 /* IMGMeme.h in Headers */,
-				C328810018EA0AF200B080CF /* AFNetworking.h in Headers */,
-				C328810118EA0AF200B080CF /* AFNetworkReachabilityManager.h in Headers */,
-				C328810218EA0AF200B080CF /* AFSecurityPolicy.h in Headers */,
-				C328810318EA0AF200B080CF /* AFURLConnectionOperation.h in Headers */,
-				C328810418EA0AF200B080CF /* AFURLRequestSerialization.h in Headers */,
-				C328810518EA0AF200B080CF /* AFURLResponseSerialization.h in Headers */,
-				C328810618EA0AF200B080CF /* AFURLSessionManager.h in Headers */,
-				C328810718EA0AF200B080CF /* UIActivityIndicatorView+AFNetworking.h in Headers */,
-				C328810818EA0AF200B080CF /* UIAlertView+AFNetworking.h in Headers */,
-				C328810918EA0AF200B080CF /* UIButton+AFNetworking.h in Headers */,
-				C328810A18EA0AF200B080CF /* UIImageView+AFNetworking.h in Headers */,
-				C328810B18EA0AF200B080CF /* UIKit+AFNetworking.h in Headers */,
-				C328810C18EA0AF200B080CF /* UIProgressView+AFNetworking.h in Headers */,
-				C328810D18EA0AF200B080CF /* UIRefreshControl+AFNetworking.h in Headers */,
-				C328810E18EA0AF200B080CF /* UIWebView+AFNetworking.h in Headers */,
 				C3F1B48E18E9BD68004ED254 /* IMGModel.h in Headers */,
 				C3F1B49C18E9BD68004ED254 /* IMGEndpoint.h in Headers */,
 				C3F1B49D18E9BD68004ED254 /* IMGResponseSerializer.h in Headers */,
@@ -1253,10 +1197,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C30933B818CA1F87009D9C57 /* Build configuration list for PBXNativeTarget "ImgurSession" */;
 			buildPhases = (
-				D3D1ADE5462F433A82E4F07E /* Check Pods Manifest.lock */,
 				C309339118CA1F87009D9C57 /* Sources */,
 				C309339218CA1F87009D9C57 /* Frameworks */,
-				6DC15E212CEF4D17B2A9DDE9 /* Copy Pods Resources */,
 				C3F1B48B18E9BD4C004ED254 /* Headers */,
 			);
 			buildRules = (
@@ -1582,24 +1524,9 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-ImgurSessionOSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6DC15E212CEF4D17B2A9DDE9 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-ImgurSession-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		723A88D346A744C3AE9184DC /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -1607,7 +1534,7 @@
 			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
@@ -1716,21 +1643,6 @@
 			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target ImgurSession ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target ImgurSession -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n";
 		};
 		CB27B87B3E594738AD2415B4 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D3D1ADE5462F433A82E4F07E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1972,7 +1884,6 @@
 /* Begin XCBuildConfiguration section */
 		243CCDA818DD32EF00B4FBC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FC257101CC740B89141A31E /* Pods-OSXAnonTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgurSessionOSX.framework/Versions/A/ImgurSessionOSX";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1998,7 +1909,6 @@
 		};
 		243CCDA918DD32EF00B4FBC6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FC257101CC740B89141A31E /* Pods-OSXAnonTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgurSessionOSX.framework/Versions/A/ImgurSessionOSX";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2021,7 +1931,6 @@
 		};
 		24B4CB9818CAB7B400EC8E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92BC7968A5764FEAA29E82CC /* Pods-ImgurSessionOSX.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -2048,7 +1957,6 @@
 		};
 		24B4CB9918CAB7B400EC8E4A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92BC7968A5764FEAA29E82CC /* Pods-ImgurSessionOSX.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -2072,7 +1980,6 @@
 		};
 		24B4CB9B18CAB7B400EC8E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BC71F69ADB2426E981E8411 /* Pods-OSXAuthenticatedTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgurSessionOSX.framework/Versions/A/ImgurSessionOSX";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2098,7 +2005,6 @@
 		};
 		24B4CB9C18CAB7B400EC8E4A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BC71F69ADB2426E981E8411 /* Pods-OSXAuthenticatedTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgurSessionOSX.framework/Versions/A/ImgurSessionOSX";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2189,7 +2095,6 @@
 		};
 		C30933B918CA1F87009D9C57 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 092DC70EA0C4429E854604CD /* Pods-ImgurSession.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/ImgurSession.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2202,7 +2107,6 @@
 		};
 		C30933BA18CA1F87009D9C57 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 092DC70EA0C4429E854604CD /* Pods-ImgurSession.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/ImgurSession.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2229,7 +2133,6 @@
 		};
 		C3C6B77319227BEE007C32C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 612C65B7186541E6BBEDA0BD /* Pods-SampleApp.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2258,7 +2161,6 @@
 		};
 		C3C6B77419227BEE007C32C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 612C65B7186541E6BBEDA0BD /* Pods-SampleApp.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2283,7 +2185,6 @@
 		};
 		C3CDA2EC18CA66DA003B7F96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C7E9E8BB5BF4985AC44F2BE /* Pods-iOSAuthenticatedTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgurSessionOSX.framework/Versions/A/ImgurSessionOSX";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2306,7 +2207,6 @@
 		};
 		C3CDA2ED18CA66DA003B7F96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C7E9E8BB5BF4985AC44F2BE /* Pods-iOSAuthenticatedTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgurSessionOSX.framework/Versions/A/ImgurSessionOSX";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2325,7 +2225,6 @@
 		};
 		C3F1B37518E2041C004ED254 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3507314232AD4D6988DAADAF /* Pods-OSXIntegratedAuthenticatedTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgurSessionOSX.framework/Versions/A/ImgurSessionOSX";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2352,7 +2251,6 @@
 		};
 		C3F1B37618E2041C004ED254 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3507314232AD4D6988DAADAF /* Pods-OSXIntegratedAuthenticatedTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgurSessionOSX.framework/Versions/A/ImgurSessionOSX";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2376,7 +2274,6 @@
 		};
 		C3F1B38918E2042C004ED254 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 021C4CA233CF41DDB17E9B2C /* Pods-OSXIntegratedAnonTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgurSessionOSX.framework/Versions/A/ImgurSessionOSX";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2403,7 +2300,6 @@
 		};
 		C3F1B38A18E2042C004ED254 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 021C4CA233CF41DDB17E9B2C /* Pods-OSXIntegratedAnonTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgurSessionOSX.framework/Versions/A/ImgurSessionOSX";
 				COMBINE_HIDPI_IMAGES = YES;

@@ -7,7 +7,7 @@
 //
 
 #import "IMGAccount.h"
-#import <AFNetworking/AFNetworking.h>
+#import "AFNetworking.h"
 
 //endpoints
 static NSString * const IMGBaseURL = @"https://api.imgur.com";
