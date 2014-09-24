@@ -67,7 +67,7 @@
 		243CCDA218DD32EF00B4FBC6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30933A618CA1F87009D9C57 /* XCTest.framework */; };
 		243CCDB018DD336900B4FBC6 /* IMGAnonymousTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 243CCDAF18DD336900B4FBC6 /* IMGAnonymousTests.m */; };
 		243CCDB118DD338700B4FBC6 /* IMGTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C3102D1418D8D5FF007A75C4 /* IMGTestCase.m */; };
-		2457E2D818F77DDA00F022A1 /* NSDictionary+IMG.h in Headers */ = {isa = PBXBuildFile; fileRef = 2457E2D618F77DDA00F022A1 /* NSDictionary+IMG.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2457E2D818F77DDA00F022A1 /* NSDictionary+IMG.h in Headers */ = {isa = PBXBuildFile; fileRef = 2457E2D618F77DDA00F022A1 /* NSDictionary+IMG.h */; };
 		2457E2D918F77DDA00F022A1 /* NSDictionary+IMG.h in Headers */ = {isa = PBXBuildFile; fileRef = 2457E2D618F77DDA00F022A1 /* NSDictionary+IMG.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2457E2DA18F77DDA00F022A1 /* NSDictionary+IMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 2457E2D718F77DDA00F022A1 /* NSDictionary+IMG.m */; };
 		2457E2DB18F77DDA00F022A1 /* NSDictionary+IMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 2457E2D718F77DDA00F022A1 /* NSDictionary+IMG.m */; };
@@ -123,7 +123,7 @@
 		C328811F18EA0DFF00B080CF /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880F918EA0AF200B080CF /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C328812018EA0DFF00B080CF /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880FA18EA0AF200B080CF /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C328812118EA0DFF00B080CF /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32880FB18EA0AF200B080CF /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C35448031906D835001C88E8 /* NSError+IMGError.h in Headers */ = {isa = PBXBuildFile; fileRef = C35448011906D835001C88E8 /* NSError+IMGError.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C35448031906D835001C88E8 /* NSError+IMGError.h in Headers */ = {isa = PBXBuildFile; fileRef = C35448011906D835001C88E8 /* NSError+IMGError.h */; };
 		C35448041906D835001C88E8 /* NSError+IMGError.h in Headers */ = {isa = PBXBuildFile; fileRef = C35448011906D835001C88E8 /* NSError+IMGError.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C35448051906D835001C88E8 /* NSError+IMGError.m in Sources */ = {isa = PBXBuildFile; fileRef = C35448021906D835001C88E8 /* NSError+IMGError.m */; };
 		C35448061906D835001C88E8 /* NSError+IMGError.m in Sources */ = {isa = PBXBuildFile; fileRef = C35448021906D835001C88E8 /* NSError+IMGError.m */; };
@@ -135,9 +135,9 @@
 		C35A124718FDAD1C007D2260 /* example.gif in Resources */ = {isa = PBXBuildFile; fileRef = C35A124218FDAD1C007D2260 /* example.gif */; };
 		C36C00F318CA7611004576A5 /* image-example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3EB4B3F18CA20B20010FD19 /* image-example.jpg */; };
 		C36C010E18CA7A7F004576A5 /* IMGAccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CDA2E618CA66DA003B7F96 /* IMGAccountTests.m */; };
-		C3C1356218FC6A5900829868 /* IMGGalleryObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C1356118FC6A5900829868 /* IMGGalleryObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C3C1356218FC6A5900829868 /* IMGGalleryObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C1356118FC6A5900829868 /* IMGGalleryObject.h */; };
 		C3C1356318FC6A5900829868 /* IMGGalleryObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C1356118FC6A5900829868 /* IMGGalleryObject.h */; };
-		C3C1356518FC6A6800829868 /* IMGObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C1356418FC6A6800829868 /* IMGObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C3C1356518FC6A6800829868 /* IMGObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C1356418FC6A6800829868 /* IMGObject.h */; };
 		C3C1356618FC6A6800829868 /* IMGObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C1356418FC6A6800829868 /* IMGObject.h */; };
 		C3C6B74919227BEE007C32C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C309339818CA1F87009D9C57 /* Foundation.framework */; };
 		C3C6B74B19227BEE007C32C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C6B74A19227BEE007C32C8 /* CoreGraphics.framework */; };
@@ -255,31 +255,31 @@
 		C3F1B43F18E9B72D004ED254 /* IMGGalleryRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B118D62B1B00B92063 /* IMGGalleryRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C3F1B44018E9B72D004ED254 /* IMGImageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747AE18D62B1B00B92063 /* IMGImageRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C3F1B44118E9B72D004ED254 /* IMGNotificationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B218D62B1B00B92063 /* IMGNotificationRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B48C18E9BD68004ED254 /* ImgurSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C3102D1818D9FF82007A75C4 /* ImgurSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3F1B48D18E9BD68004ED254 /* IMGSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C30933E318CA204C009D9C57 /* IMGSession.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B48E18E9BD68004ED254 /* IMGModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407478718D5488100B92063 /* IMGModel.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B48F18E9BD68004ED254 /* IMGAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407479918D62AF700B92063 /* IMGAccount.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49018E9BD68004ED254 /* IMGAccountSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407479A18D62AF700B92063 /* IMGAccountSettings.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49118E9BD68004ED254 /* IMGAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407479418D62AE200B92063 /* IMGAlbum.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49218E9BD68004ED254 /* IMGBasicAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 249DABDA18D65FD7008531FE /* IMGBasicAlbum.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49318E9BD68004ED254 /* IMGComment.h in Headers */ = {isa = PBXBuildFile; fileRef = C319F7D218D0DB3F00C5E880 /* IMGComment.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49418E9BD68004ED254 /* IMGGalleryAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407478E18D62AD100B92063 /* IMGGalleryAlbum.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49518E9BD68004ED254 /* IMGGalleryImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407478D18D62AD100B92063 /* IMGGalleryImage.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49618E9BD68004ED254 /* IMGGalleryProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407475C18D4FA0300B92063 /* IMGGalleryProfile.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49718E9BD68004ED254 /* IMGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747A018D62B0700B92063 /* IMGImage.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49818E9BD68004ED254 /* IMGMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407475718D4F77E00B92063 /* IMGMessage.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49918E9BD68004ED254 /* IMGConversation.h in Headers */ = {isa = PBXBuildFile; fileRef = C3102D2818DB78DE007A75C4 /* IMGConversation.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49A18E9BD68004ED254 /* IMGNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407475218D4F3FC00B92063 /* IMGNotification.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49B18E9BD68004ED254 /* IMGVote.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407474D18D4F31600B92063 /* IMGVote.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49C18E9BD68004ED254 /* IMGEndpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747AD18D62B1B00B92063 /* IMGEndpoint.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49D18E9BD68004ED254 /* IMGResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B418D62B1B00B92063 /* IMGResponseSerializer.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49E18E9BD68004ED254 /* IMGAccountRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747A918D62B1B00B92063 /* IMGAccountRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B49F18E9BD68004ED254 /* IMGAlbumRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747AF18D62B1B00B92063 /* IMGAlbumRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B4A018E9BD68004ED254 /* IMGCommentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B018D62B1B00B92063 /* IMGCommentRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B4A118E9BD68004ED254 /* IMGConversationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B318D62B1B00B92063 /* IMGConversationRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B4A218E9BD69004ED254 /* IMGGalleryRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B118D62B1B00B92063 /* IMGGalleryRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B4A318E9BD69004ED254 /* IMGImageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747AE18D62B1B00B92063 /* IMGImageRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3F1B4A418E9BD69004ED254 /* IMGNotificationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B218D62B1B00B92063 /* IMGNotificationRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C3F1B48C18E9BD68004ED254 /* ImgurSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C3102D1818D9FF82007A75C4 /* ImgurSession.h */; };
+		C3F1B48D18E9BD68004ED254 /* IMGSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C30933E318CA204C009D9C57 /* IMGSession.h */; };
+		C3F1B48E18E9BD68004ED254 /* IMGModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407478718D5488100B92063 /* IMGModel.h */; };
+		C3F1B48F18E9BD68004ED254 /* IMGAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407479918D62AF700B92063 /* IMGAccount.h */; };
+		C3F1B49018E9BD68004ED254 /* IMGAccountSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407479A18D62AF700B92063 /* IMGAccountSettings.h */; };
+		C3F1B49118E9BD68004ED254 /* IMGAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407479418D62AE200B92063 /* IMGAlbum.h */; };
+		C3F1B49218E9BD68004ED254 /* IMGBasicAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 249DABDA18D65FD7008531FE /* IMGBasicAlbum.h */; };
+		C3F1B49318E9BD68004ED254 /* IMGComment.h in Headers */ = {isa = PBXBuildFile; fileRef = C319F7D218D0DB3F00C5E880 /* IMGComment.h */; };
+		C3F1B49418E9BD68004ED254 /* IMGGalleryAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407478E18D62AD100B92063 /* IMGGalleryAlbum.h */; };
+		C3F1B49518E9BD68004ED254 /* IMGGalleryImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407478D18D62AD100B92063 /* IMGGalleryImage.h */; };
+		C3F1B49618E9BD68004ED254 /* IMGGalleryProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407475C18D4FA0300B92063 /* IMGGalleryProfile.h */; };
+		C3F1B49718E9BD68004ED254 /* IMGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747A018D62B0700B92063 /* IMGImage.h */; };
+		C3F1B49818E9BD68004ED254 /* IMGMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407475718D4F77E00B92063 /* IMGMessage.h */; };
+		C3F1B49918E9BD68004ED254 /* IMGConversation.h in Headers */ = {isa = PBXBuildFile; fileRef = C3102D2818DB78DE007A75C4 /* IMGConversation.h */; };
+		C3F1B49A18E9BD68004ED254 /* IMGNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407475218D4F3FC00B92063 /* IMGNotification.h */; };
+		C3F1B49B18E9BD68004ED254 /* IMGVote.h in Headers */ = {isa = PBXBuildFile; fileRef = 2407474D18D4F31600B92063 /* IMGVote.h */; };
+		C3F1B49C18E9BD68004ED254 /* IMGEndpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747AD18D62B1B00B92063 /* IMGEndpoint.h */; };
+		C3F1B49D18E9BD68004ED254 /* IMGResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B418D62B1B00B92063 /* IMGResponseSerializer.h */; };
+		C3F1B49E18E9BD68004ED254 /* IMGAccountRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747A918D62B1B00B92063 /* IMGAccountRequest.h */; };
+		C3F1B49F18E9BD68004ED254 /* IMGAlbumRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747AF18D62B1B00B92063 /* IMGAlbumRequest.h */; };
+		C3F1B4A018E9BD68004ED254 /* IMGCommentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B018D62B1B00B92063 /* IMGCommentRequest.h */; };
+		C3F1B4A118E9BD68004ED254 /* IMGConversationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B318D62B1B00B92063 /* IMGConversationRequest.h */; };
+		C3F1B4A218E9BD69004ED254 /* IMGGalleryRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B118D62B1B00B92063 /* IMGGalleryRequest.h */; };
+		C3F1B4A318E9BD69004ED254 /* IMGImageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747AE18D62B1B00B92063 /* IMGImageRequest.h */; };
+		C3F1B4A418E9BD69004ED254 /* IMGNotificationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 240747B218D62B1B00B92063 /* IMGNotificationRequest.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1096,11 +1096,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3F1B48C18E9BD68004ED254 /* ImgurSession.h in Headers */,
 				C3C6B7F819240C3A007C32C8 /* IMGMemeGen.h in Headers */,
+				C3C6B7F219240BD7007C32C8 /* IMGMeme.h in Headers */,
 				2457E2D818F77DDA00F022A1 /* NSDictionary+IMG.h in Headers */,
 				C35448031906D835001C88E8 /* NSError+IMGError.h in Headers */,
-				C3C6B7F219240BD7007C32C8 /* IMGMeme.h in Headers */,
 				C3F1B48E18E9BD68004ED254 /* IMGModel.h in Headers */,
 				C3F1B49C18E9BD68004ED254 /* IMGEndpoint.h in Headers */,
 				C3F1B49D18E9BD68004ED254 /* IMGResponseSerializer.h in Headers */,
@@ -1127,6 +1126,7 @@
 				C3F1B4A218E9BD69004ED254 /* IMGGalleryRequest.h in Headers */,
 				C3F1B4A318E9BD69004ED254 /* IMGImageRequest.h in Headers */,
 				C3F1B4A418E9BD69004ED254 /* IMGNotificationRequest.h in Headers */,
+				C3F1B48C18E9BD68004ED254 /* ImgurSession.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
